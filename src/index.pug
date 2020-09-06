@@ -2,20 +2,33 @@ doctype html
 html(lang="es-MX")
     head
         meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title API Countries
+        meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+        title API WebMundi
+        meta(name="description", content="API WebMundi es un sitio Web abierto para consultar información acerca de los diferentes paises que conforman el mundo.")
+        link(rel="shortcut icon", type="image/x-icon", href="assets/images/favicons/favicon.ico")
+        link(rel="icon", type="image/png", sizes="16x16", href="assets/images/favicons/favicon-16x16.png")
+        link(rel="icon", type="image/png", sizes="32x32", href="assets/images/favicons/favicon-32x32.png")
+        link(rel="icon", type="image/png", sizes="96x96", href="assets/images/favicons/favicon-96x96.png")
+        link(rel="apple-touch-icon-precomposed", href="assets/images/favicons/apple-icon-precomposed.png")
+        link(rel="apple-touch-icon", sizes="57x57", href="assets/images/favicons/apple-icon-57x57.png")
+        link(rel="apple-touch-icon", sizes="60x60", href="assets/images/favicons/apple-icon-60x60.png")
+        link(rel="apple-touch-icon", sizes="72x72", href="assets/images/favicons/apple-icon-72x72.png")
+        link(rel="apple-touch-icon", sizes="76x76", href="assets/images/favicons/apple-icon-76x76.png")
+        link(rel="apple-touch-icon", sizes="114x114", href="assets/images/favicons/apple-icon-114x114.png")
+        link(rel="apple-touch-icon", sizes="120x120", href="assets/images/favicons/apple-icon-120x120.png")
+        link(rel="apple-touch-icon", sizes="144x144", href="assets/images/favicons/apple-icon-144x144.png")
+        link(rel="apple-touch-icon", sizes="152x152", href="assets/images/favicons/apple-icon-152x152.png")
+        link(rel="apple-touch-icon", sizes="180x180", href="assets/images/favicons/apple-icon-180x180.png")
+        link(rel="manifest", href="assets/images/favicons/manifest.json")
+        meta(name="msapplication-config", content="assets/images/favicons/browserconfig.xml")
+        link(rel="author", type="text/plain", href="humans.txt")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css")
         link(rel="stylesheet", href="libs/dataTables/css/jquery.dataTables.min.css")
+        link(rel="stylesheet", href="app.css")
     body
-        header
-        main
-            table#countries.countries
-                thead
-                    tr
-                        th País
-                        th Región
-                        th Población
-                        th Bandera
-        footer
+        include templates/header.pug
+        include templates/countries.pug
+        include templates/footer.pug
         script(src="libs/jquery-3.5.1.js")
         script(src="libs/dataTables/js/jquery.dataTables.min.js")
         script(src="app.js")
