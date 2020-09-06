@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+html, body {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
