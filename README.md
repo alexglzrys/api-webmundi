@@ -8,7 +8,7 @@ Este proyecto tiene como finalidad conectarse a un API pública, solicitar infor
 - HTML5
 - CSS3
 - JavaScript
-- Librerías: JQuery, FontAwesome, GoogleFonts, jQuery
+- Librerías: FontAwesome, GoogleFonts, jQuery
 - Plugins: DataTables
 - Preprocesadores: PUG, SASS
 - Metodologías: Mobile First, Responsive Web Design, BEM orientada a componentes
