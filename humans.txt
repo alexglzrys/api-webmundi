@@ -1,0 +1,23 @@
+/* API WebMundo */
+/* Proyecto de evaluación técnica para la contratación como Desarrollador Web. */
+
+/* TEAM */
+Fundador: Alejandro González Reyes
+Site: https://github.com/alexglzrys/
+Contacto: alexglzrys[at]gmail.com
+Twitter: @alexglzrys
+Location: Lerma México
+
+/* THANKS */
+@jonmircha
+
+/* SITE */
+Last update: 2020/09/05
+Language: Español
+Standars: HTML5, CSS3, JavaScript, jQuery
+Components: DataTables, FontAwesome
+Methodologies: Mobile First, BEM, Responsive Web Design
+
+Software: Visual Studio Code
+
+/* http://humanstxt.org */
